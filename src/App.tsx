@@ -1,12 +1,14 @@
 /* import { useState } from 'react'; */
 import './App.css';
 import Header from './components/header';
+import TodoList from './components/todoList';
+
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Class Name</h1>
+      <TodoList />
     </>
   );
 }
